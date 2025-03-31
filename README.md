@@ -1,4 +1,4 @@
-# GossipGrid
+# GossipGrid 📱
 
 GossipGrid is a web application designed to facilitate community-driven news sharing. Users can post news articles, engage in discussions, and stay informed about local events. Built with React and Vite, GossipGrid offers a responsive and intuitive interface for seamless user experience.
 
@@ -9,6 +9,30 @@ GossipGrid is a web application designed to facilitate community-driven news sha
 - **User Authentication**: Secure user registration and login system using FireBase.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 
-## Installation
+## Project Structure
 
-To set up GossipGrid locally, follow these steps
+This project's structure is organized as follows:
+
+- `src/`: Contains the main source code for the application.
+  - `components/`: Reusable React components.
+  - `pages/`: Page components correspondeing to different routes.
+  - `config/`: Firebase configuration.
+
+## Live Demo
+
+Coming Soon on Youtube...
+
+## Installation 🚀
+
+To set up GossipGrid locally, follow these steps:
+
+1. **Clone the Repository**:
+   `git clone https://github.com/PaoloAJ/GossipGrid.git`
+2. **Navigate to the Project Directory**"
+   `cd GossipGrid`
+3. **Install Dependencies**:
+   `npm install`
+4. **Set Up Enviroment Variables**:
+   Create a `.env.local` file in the root directory and configure the neccessary enviroment variables as per your Firebase settings.
+5. **Start the Development Server**:
+   `npm run dev`
